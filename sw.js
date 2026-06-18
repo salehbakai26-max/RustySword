@@ -1,6 +1,6 @@
 const CACHE = 'rusty-sword-v1';
 const CORE = [
-  'index.html','icon.svg','manifest.json',
+  'index.html','icon-192.png','icon-512.png','manifest.json',
   'lib/phaser.min.js',
   'js/cfg.js','js/audio.js','js/levels.js',
   'js/Boot.js','js/Menu.js','js/Story.js','js/Game.js','js/main.js'
