@@ -1,0 +1,10 @@
+{
+  "speed": 180,
+  "jump": -380,
+  "dashSpeed": 400,
+  "dashDuration": 200,
+  "maxHealth": 3,
+  "swordRange": 40,
+  "attackDuration": 300,
+  "hitInvincible": 800
+}

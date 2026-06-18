@@ -1,0 +1,10 @@
+{
+  "easy": {
+    "slime": { "speed": 30, "patrolRange": 60, "health": 1 },
+    "angryPig": { "speed": 40, "patrolRange": 100, "health": 1 }
+  },
+  "hard": {
+    "slime": { "speed": 60, "patrolRange": 120, "health": 2 },
+    "angryPig": { "speed": 90, "patrolRange": 200, "health": 3 }
+  }
+}

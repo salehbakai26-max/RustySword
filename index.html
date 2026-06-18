@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<meta name="description" content="لعبة منصات عربية - أسطورة السيف الصدئ">
+<meta name="theme-color" content="#1a1a2e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<title>أسطورة السيف الصدئ</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a1a;display:flex;justify-content:center;align-items:center;width:100vw;height:100dvh;overflow:hidden;touch-action:none;-webkit-overflow-scrolling:none}
+#g{width:100vw;max-width:960px;max-height:540px;aspect-ratio:16/9}
+canvas{display:block;image-rendering:pixelated}
+</style>
+</head>
+<body>
+<div id="g"></div>
+<script src="lib/phaser.min.js"></script>
+<script src="js/cfg.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/levels.js"></script>
+<script src="js/Boot.js"></script>
+<script src="js/Menu.js"></script>
+<script src="js/Story.js"></script>
+<script src="js/Game.js"></script>
+<script src="js/main.js"></script>
+<script>if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{})</script>
+</body>
+</html>
